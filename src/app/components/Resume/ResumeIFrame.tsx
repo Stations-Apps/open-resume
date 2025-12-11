@@ -20,8 +20,8 @@ const getIframeInitialContent = (isA4: boolean) => {
     .map(
       (
         font
-      ) => `<link rel="preload" as="font" href="/fonts/${font}-Regular.ttf" type="font/ttf" crossorigin="anonymous">
-<link rel="preload" as="font" href="/fonts/${font}-Bold.ttf" type="font/ttf" crossorigin="anonymous">`
+      ) => `<link rel="preload" as="font" href="/fonts/${font}-Regular.woff" type="font/woff" crossorigin="anonymous">
+<link rel="preload" as="font" href="/fonts/${font}-Bold.woff" type="font/woff" crossorigin="anonymous">`
     )
     .join("");
 
@@ -29,8 +29,8 @@ const getIframeInitialContent = (isA4: boolean) => {
     .map(
       (
         font
-      ) => `@font-face {font-family: "${font}"; src: url("/fonts/${font}-Regular.ttf");}
-@font-face {font-family: "${font}"; src: url("/fonts/${font}-Bold.ttf"); font-weight: bold;}`
+      ) => `@font-face {font-family: "${font}"; src: url("/fonts/${font}-Regular.woff");}
+@font-face {font-family: "${font}"; src: url("/fonts/${font}-Bold.woff"); font-weight: bold;}`
     )
     .join("");
 

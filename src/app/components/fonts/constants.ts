@@ -22,7 +22,7 @@
  * A solution to this problem is to import and re-export the font with a font editor, e.g. fontforge or birdfont.
  *
  * If using fontforge, the following command can be used to export the font:
- * ./fontforge -lang=ff -c 'Open($1); Generate($2); Close();' old_font.ttf new_font.ttf
+ * ./fontforge -lang=ff -c 'Open($1); Generate($2); Close();' old_font.woff new_font.woff
  * Note that fontforge doesn't work on non-english fonts: https://github.com/fontforge/fontforge/issues/1534
  * Also, some fonts might still not work after re-export.
  */
