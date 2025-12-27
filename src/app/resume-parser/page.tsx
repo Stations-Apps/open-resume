@@ -99,15 +99,7 @@ export default function ResumeParser() {
                 </article>
               ))}
             </div>
-            <Paragraph>
-              You can also{" "}
-              <span className="font-semibold">add your resume below</span> to
-              access how well your resume would be parsed by similar Application
-              Tracking Systems (ATS) used in job applications. The more
-              information it can parse out, the better it indicates the resume
-              is well formatted and easy to read. It is beneficial to have the
-              name and email accurately parsed at the very least.
-            </Paragraph>
+
             <div className="mt-3">
               <ResumeDropzone
                 onFileUrlChange={(fileUrl) =>
