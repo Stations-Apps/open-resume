@@ -66,7 +66,7 @@ export default function ResumeParser() {
           <section className="max-w-[600px] grow">
             <Heading className="text-primary !mt-4">Resume Parser</Heading>
             <Paragraph smallMarginTop={true}>
-              Check if your resume is ATS-ready. Powered by{" "}
+              Quickly check if your resume is ATS-ready. Powered by{" "}
               <a
                 href="https://github.com/xitanggg/open-resume"
                 className="underline"
