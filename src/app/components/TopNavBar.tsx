@@ -3,7 +3,7 @@
 export const TopNavBar = () => {
   return (
     <nav className="m-3 flex max-w-full justify-center text-white">
-      <div className="max-w-400 flex h-12 grow items-center justify-between rounded-xl bg-[#4C73F2] p-8">
+      <div className="flex h-12 max-w-[1600px] grow items-center justify-between rounded-xl bg-[#4C73F2] p-8">
         <div className="flex gap-4">
           <a href="/">
             <p>
