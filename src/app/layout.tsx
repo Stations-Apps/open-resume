@@ -17,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <TopNavBar />
+        <div className="mt-12"></div>
         {children}
         <Analytics />
       </body>
