@@ -10,6 +10,8 @@
 @font-face {font-family: "OpenSans"; src: url("/fonts/OpenSans-Bold.woff"); font-weight: bold;}
 @font-face {font-family: "Raleway"; src: url("/fonts/Raleway-Regular.woff");}
 @font-face {font-family: "Raleway"; src: url("/fonts/Raleway-Bold.woff"); font-weight: bold;}
+@font-face {font-family: "Geist"; src: url("/fonts/Geist-Regular.woff");}
+@font-face {font-family: "Geist"; src: url("/fonts/Geist-Bold.woff"); font-weight: bold;}
 
 /* Serif Fonts */
 @font-face {font-family: "Caladea"; src: url("/fonts/Caladea-Regular.woff");}
