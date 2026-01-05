@@ -1,7 +1,7 @@
 import { cx } from "lib/cx";
 
 const HEADING_CLASSNAMES = {
-  1: "text-2xl font-bold",
+  1: "text-4xl font-bold",
   2: "text-xl font-bold",
   3: "text-lg font-semibold",
 };

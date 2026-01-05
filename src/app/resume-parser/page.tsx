@@ -59,7 +59,7 @@ export default function ResumeParser() {
         <div className="flex px-6 text-gray-900 md:col-span-3 md:h-[calc(100vh-var(--top-nav-bar-height))] md:overflow-y-scroll">
           <FlexboxSpacer maxWidth={45} className="hidden md:block" />
           <section className="max-w-[600px] grow">
-            <Heading className="text-primary !mt-4">Resume Parser</Heading>
+            <Heading className="!mt-4 text-4xl">Resume Parser</Heading>
             <Paragraph smallMarginTop={true}>
               Quickly check if your resume is ATS-ready. Powered by{" "}
               <a

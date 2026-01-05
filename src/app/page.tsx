@@ -60,7 +60,7 @@ export default function ResumeParser() {
           <FlexboxSpacer maxWidth={45} className="hidden md:block" />
           <section className="max-w-[600px] grow">
             <Heading className="text-primary !mt-4">Resume Parser</Heading>
-            <Paragraph smallMarginTop={true}>
+            <Paragraph smallMarginTop={true} className="mb-6">
               Quickly check if your resume is ATS-ready. Powered by{" "}
               <a
                 href="https://github.com/xitanggg/open-resume"
@@ -77,7 +77,7 @@ export default function ResumeParser() {
                   className={cx(
                     "flex-1 cursor-pointer rounded-md border-2 px-4 py-3 shadow-sm outline-none hover:bg-gray-50 focus:bg-gray-50",
                     example.fileUrl === fileUrl
-                      ? "border-blue-400"
+                      ? "border-[#0E8AC7]"
                       : "border-gray-300"
                   )}
                   onClick={() => setFileUrl(example.fileUrl)}
